@@ -120,7 +120,6 @@ export default class MyThree {
       1000
     );
     camera.position.set(0, 0, 10);
-    // camera.lookAt(0, 0, 0);
     this.camera = camera;
     // 四. 渲染器
     const renderer = new THREE.WebGLRenderer({ antialias: true });
